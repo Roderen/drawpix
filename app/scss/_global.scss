@@ -3,6 +3,22 @@ body {
 	height: 100%;
 }
 
+* {
+	color: $text-color;
+}
+
+body {
+	position: relative;
+	padding-top: 60px;
+	overflow-x: hidden;
+	font-family: $main-font;
+	background-color: $primary-color-4;
+}
+
+body.active {
+	overflow: hidden;
+}
+
 .wrapper {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -11,31 +27,27 @@ body {
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: column;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	min-height: 100%;
 }
 
 .main {
 	-webkit-box-flex: 1;
 	-webkit-flex: 1 0 auto;
-	    -ms-flex: 1 0 auto;
-	        flex: 1 0 auto;
+	-ms-flex: 1 0 auto;
+	flex: 1 0 auto;
 }
+
 .footer {
 	-webkit-box-flex: 0;
 	-webkit-flex: 0 0 auto;
-	    -ms-flex: 0 0 auto;
-	        flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
 }
 
-.container{
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+.container {
+	max-width: 1610px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
-
-
-
-
-
