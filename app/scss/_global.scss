@@ -1,6 +1,7 @@
 html,
 body {
 	height: 100%;
+	overflow-x: hidden;
 }
 
 * {
@@ -9,8 +10,6 @@ body {
 
 body {
 	position: relative;
-	padding-top: 60px;
-	overflow-x: hidden;
 	font-family: $main-font;
 	background-color: $primary-color-4;
 }
